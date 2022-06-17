@@ -1,0 +1,11 @@
+export enum ErrorCode {
+  SUCCESS = '00',
+  GENERAL_ERROR = '99',
+  BAD_REQUEST = '01',
+  PAGE_INDEX_NOT_INTEGER = '02',
+  PAGE_INDEX_MIN_ONE = '03',
+  PAGE_SIZE_NOT_INTEGER = '04',
+  PAGE_SIZE_MIN_ONE = '05',
+  USER_EXISTED = '06',
+  USER_NOT_EXISTED = '07',
+}
